@@ -1,11 +1,11 @@
 :root {
-  --bg: #fafafa;
-  --surface: #ffffff;
-  --text: #16181d;
-  --muted: #5b6170;
-  --accent: #4062e0;
-  --border: #e3e5ea;
-  color-scheme: light;
+  --bg: #0f1115;
+  --surface: #181b22;
+  --text: #e8e9ed;
+  --muted: #9aa0ad;
+  --accent: #7c9cff;
+  --border: #262a33;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -46,7 +46,7 @@ section { padding: 4rem 0; }
   left: -4rem;
   width: min(520px, 90vw);
   height: 320px;
-  background: radial-gradient(closest-side, rgba(64, 98, 224, 0.16), rgba(168, 85, 247, 0.10), transparent);
+  background: radial-gradient(closest-side, rgba(124, 156, 255, 0.22), rgba(192, 132, 252, 0.10), transparent);
   filter: blur(30px);
   pointer-events: none;
 }
@@ -80,7 +80,7 @@ section { padding: 4rem 0; }
 .hero h1 .name-last {
   font-style: italic;
   font-weight: 500;
-  background: linear-gradient(120deg, #4062e0 0%, #9333ea 50%, #db2777 100%);
+  background: linear-gradient(120deg, #7c9cff 0%, #c084fc 50%, #f0abfc 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
@@ -106,7 +106,7 @@ section { padding: 4rem 0; }
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   background: var(--accent);
-  color: #ffffff;
+  color: #0f1115;
   font-weight: 600;
   transition: transform 0.15s ease;
 }
